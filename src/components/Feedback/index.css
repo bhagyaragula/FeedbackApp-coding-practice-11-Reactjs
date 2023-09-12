@@ -1,0 +1,108 @@
+/* Write your CSS code here. */
+.fbques-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.qus-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #0f172a;
+}
+@media screen and (min-width: 992px) {
+  .qus-heading {
+    font-size: 32px;
+  }
+}
+.emojis-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 30px;
+  padding: 0px;
+}
+
+.emoijs-btn {
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.emoji-img {
+  height: 45px;
+  width: 45px;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .emoji-img {
+    height: 65px;
+    width: 65px;
+  }
+}
+.emoji-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #1e293b;
+}
+@media screen and (min-width: 768px) {
+  .emoji-name {
+    font-size: 12px;
+  }
+}
+
+.fbans-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.love-img {
+  height: 50px;
+  width: 60px;
+}
+
+.ans-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  color: #0f172a;
+  align-items: center;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #1e293b;
+  align-items: center;
+  font-weight: 300;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+}
+.fb-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 80%;
+  padding: 25px;
+  max-width: 600px;
+}
+
+@media screen and (min-width: 768px) {
+  .fb-card {
+    padding: 32px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .fb-card {
+    padding: 62px;
+  }
+}
